@@ -1,0 +1,11 @@
+﻿namespace E_commerce_DataModeling.ViewModels
+{
+
+    public class UpdateProduct_VM
+    {
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public double Price { get; set; }
+        public int StockQuantity { get; set; }
+    }
+}
